@@ -129,8 +129,9 @@ plot(theta,'LineWidth',1.1)
 nexttile(9,[2,2])
 imshow(U,[])
 
-nexttile(11)
-imshow(U_TV,[2,2])
+nexttile(11,[2,2])
+imshow(U_TV,[])
+
 
 
 
